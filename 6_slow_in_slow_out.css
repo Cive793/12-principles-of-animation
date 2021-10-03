@@ -1,0 +1,31 @@
+.show {
+  animation: showNav 1.5s;
+  animation-timing-function: cubic-bezier(0.6, -0.4, 0.44, 1.4);
+
+  animation-fill-mode: forwards;
+}
+
+.hide {
+  animation: hideNav 1.5s;
+  animation-timing-function: cubic-bezier(0.6, -0.4, 0.44, 1.4);
+  animation-fill-mode: forwards;
+}
+
+@keyframes showNav {
+  0% {
+    transform: translateY(680px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes hideNav {
+  0% {
+  }
+
+  100% {
+    transform: translateY(680px);
+  }
+}
