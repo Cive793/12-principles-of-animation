@@ -1,7 +1,6 @@
 .show {
   animation: showNav 1.5s;
   animation-timing-function: cubic-bezier(0.6, -0.4, 0.44, 1.4);
-
   animation-fill-mode: forwards;
 }
 

@@ -1,0 +1,10 @@
+.addtocart {
+  animation: moveToCart 2s;
+  offset-path: path("m0,0 c0,-20 150,-300 220,-140");
+}
+
+@keyframes moveToCart {
+  to {
+    offset-distance: 100%;
+  }
+}

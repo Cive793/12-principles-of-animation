@@ -1,0 +1,65 @@
+.linear {
+  animation: linearBall 2s;
+  animation-timing-function: linear;
+}
+
+@keyframes linearBall {
+  100% {
+    transform: translateX(550px);
+  }
+}
+
+.ease {
+  animation: easeBall 2s;
+  animation-timing-function: ease;
+}
+
+@keyframes easeBall {
+  100% {
+    transform: translateX(550px);
+  }
+}
+
+.ease-in {
+  animation: easeInBall 2s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes easeInBall {
+  100% {
+    transform: translateX(550px);
+  }
+}
+
+.ease-out {
+  animation: easeOutBall 2s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes easeOutBall {
+  100% {
+    transform: translateX(550px);
+  }
+}
+
+.ease-in-out {
+  animation: easeInOutBall 2s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes easeInOutBall {
+  100% {
+    transform: translateX(550px);
+  }
+}
+
+.steps {
+  animation: stepsBall 2s;
+  animation-timing-function: steps(15);
+}
+
+@keyframes stepsBall {
+  100% {
+    transform: translateX(550px);
+  }
+}
