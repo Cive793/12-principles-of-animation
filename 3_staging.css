@@ -1,0 +1,10 @@
+.active {
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  transform: translateX(300px);
+}
+
+#content {
+  max-width: 220px;
+  margin-left: -300px;
+}
